@@ -1,0 +1,16 @@
+#!/bin/bash
+# Generated from v2.9.0
+hostname=`curl http://169.254.169.254/latest/meta-data/hostname`
+region='us-east-1'
+deploymentName='f5quickstart'
+managementGuiPort='8443'
+timezone='UTC'
+ntpServer='0.pool.ntp.org'
+virtualServicePort='80'
+applicationPort='80'
+applicationPoolTagKey='f5demoapp'
+application1PoolTagValue='f5-demo-app-0.0.1'
+application2PoolTagValue='f5-demo-app-0.0.2'
+s3Bucket='test-bigipstack-13qtzvd8rkg5y-s3bucket-wg5mmw3to5m2'
+sqsUrl='https://sqs.us-east-1.amazonaws.com/452013943082/Test-BIGIPStack-13QTZVD8RKG5Y-SQSQueue-1FSXOXHZM0YJ0'
+appCertificateS3Arn='default'
