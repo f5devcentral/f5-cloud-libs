@@ -1,5 +1,6 @@
 #!/bin/bash
 # Generated from v2.9.0
+set -e
 hostname=`curl http://169.254.169.254/latest/meta-data/hostname`
 region='us-east-1'
 deploymentName='f5quickstart'
