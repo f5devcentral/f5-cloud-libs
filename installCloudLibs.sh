@@ -1,6 +1,7 @@
 #!/bin/bash
 # Generated from v2.9.0
 
+set -e
 echo about to execute
 checks=0
 while [ $checks -lt 120 ]; do echo checking mcpd
