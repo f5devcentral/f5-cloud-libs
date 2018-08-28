@@ -1,6 +1,5 @@
 #!/bin/bash
 # Generated from v2.9.0
-set -e
 date
 . /config/cloud/aws/onboard_config_vars
 BIGIP_ASG_NAME=`f5-rest-node /config/cloud/aws/node_modules/f5-cloud-libs/node_modules/f5-cloud-libs-aws/scripts/getAutoscaleGroupName.js` 
